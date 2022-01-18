@@ -9,5 +9,5 @@ Feature: Corporate car rental
 
    Examples: 
       | name     | companyname   |email                     |phno           |
-      | Karthik   | Mindtree      |karthik.prabha3007@gmail.com  |9361233511     |
+      | Sathish M   | Mindtree      |msathishkumar109@gmail.com  |9066103594     |
  

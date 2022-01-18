@@ -13,4 +13,4 @@ Feature: signout app
 
     Examples: 
       | email                        | Pwd      |
-      | karthik.prabha3007@gmail.com | Karthi30$|
+      | msathishkumar109@gmail.com | Sathish@2705|
