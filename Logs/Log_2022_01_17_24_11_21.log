@@ -1,0 +1,5 @@
+2022-01-17 11:24:32,504  INFO [main] outstationStepDef:14 - URL Opened
+2022-01-17 11:24:33,531  INFO [main] outstationStepDef:14 - signin is clicked in page home page
+2022-01-17 11:24:39,522  INFO [main] outstationStepDef:14 - Email field is send in page Account Log in
+2022-01-17 11:24:40,238  INFO [main] outstationStepDef:14 - password field is send in page Account Log in
+2022-01-17 11:24:41,004  INFO [main] outstationStepDef:14 - sign in button is clicked in page Account Log in

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="284.058" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Karthi\eclipse-workspace\BddFramework./driver/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Karthi\eclipse-workspace\BddFramework\target\test-classes;C:\Users\Karthi\eclipse-workspace\BddFramework\target\classes;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Karthi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Karthi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Karthi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Karthi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Karthi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Karthi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Karthi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Karthi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Karthi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Karthi\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Karthi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Karthi\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Karthi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\Karthi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Karthi\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Karthi\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Karthi\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Karthi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Karthi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Karthi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Karthi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Karthi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Karthi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Karthi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Karthi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Users\Karthi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Karthi\AppData\Local\Temp\surefire17018831031495071562\surefirebooter11684399522550599830.jar C:\Users\Karthi\AppData\Local\Temp\surefire17018831031495071562 2022-01-17T22-14-58_405-jvmRun1 surefire1227619703950919980tmp surefire_016921532971155663466tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Karthi\eclipse-workspace\BddFramework\target\test-classes;C:\Users\Karthi\eclipse-workspace\BddFramework\target\classes;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Karthi\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Karthi\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Karthi\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Karthi\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Karthi\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Karthi\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Karthi\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Karthi\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Karthi\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Karthi\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Karthi\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Karthi\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Karthi\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Karthi\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-junit\7.0.0\cucumber-junit-7.0.0.jar;C:\Users\Karthi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-testng\7.0.0\cucumber-testng-7.0.0.jar;C:\Users\Karthi\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Karthi\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Karthi\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi\4.1.0\poi-4.1.0.jar;C:\Users\Karthi\.m2\repository\commons-codec\commons-codec\1.12\commons-codec-1.12.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-collections4\4.3\commons-collections4-4.3.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi-ooxml\4.1.0\poi-ooxml-4.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.0\poi-ooxml-schemas-4.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Karthi\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\Karthi\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Karthi\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Karthi\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Karthi\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Karthi\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Karthi\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Karthi\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Karthi\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Karthi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="C:\Users\Karthi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Karthi\eclipse-workspace\BddFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Karthi\AppData\Local\Temp\surefire17018831031495071562\surefirebooter11684399522550599830.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17+35"/>
+    <property name="user.name" value="Karthi"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17+35"/>
+    <property name="localRepository" value="C:\Users\Karthi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Karthi\AppData\Local\Temp\"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="C:\Users\Karthi\eclipse-workspace\BddFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Karthi\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Karthi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin/server;C:/Users/Karthi/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.0.v20211012-1059/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\Karthi\AppData\Local\Android\Sdk\tools\bin;C:\Users\Karthi\AppData\Local\Android\Sdk\tools;C:\Users\Karthi\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules\npm\bin;C:\Program Files\Git\cmd;C:\Users\Karthi\Downloads\apache-maven-3.8.4\bin;C:\Program Files\OpenBabel-2.4.1;C:\Users\Karthi\AppData\Local\Microsoft\WindowsApps;C:\Users\Karthi\Downloads\apache-maven-3.8.4\bin;C:\Users\Karthi\AppData\Roaming\npm;C:\Users\Karthi\Downloads\apache-maven-3.8.4\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Program Files\Java\jdk1.8.0_301\bin;;C:\Users\Karthi\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17+35"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;corporate car rental page&quot;, &quot;Optional[Corporate car rental]&quot;](1)" classname="com.mindtree.runner.BDDTestRunner" time="53.433">
+    <system-out><![CDATA[CorporateCarRental
+01-17-2022 22:15:14 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - URL Opened
+01-17-2022 22:15:15 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - car rental is clicked in page rental
+01-17-2022 22:15:22 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - clicked the name is clicked in page name
+01-17-2022 22:15:23 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - entered name is send in page name
+01-17-2022 22:15:25 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - clicked company name is clicked in page compname
+01-17-2022 22:15:26 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - entered company name is send in page compname
+01-17-2022 22:15:27 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - clicked email is clicked in page email
+01-17-2022 22:15:28 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - entered email is send in page email
+01-17-2022 22:15:29 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - clicked phone no is clicked in page phoneno
+01-17-2022 22:15:30 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - entered phone no is send in page phoneno
+01-17-2022 22:15:32 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - submit is clicked in page submit
+01-17-2022 22:15:53 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - result detail shown 
+01-17-2022 22:15:54 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 7119
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642437907.318][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:15:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;selecting chen-trl in in onewaycab&quot;, &quot;Optional[Oneway cab page]&quot;](2)" classname="com.mindtree.runner.BDDTestRunner" time="37.864">
+    <system-out><![CDATA[OneWayCabs
+01-17-2022 22:16:05 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:16:06 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - One way cab is clicked in page onewaycab
+01-17-2022 22:16:19 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - chennaitab is clicked in page chennai
+01-17-2022 22:16:22 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - trl is clicked in page trl
+Book Outstation Cabs, Local & Airport Taxi Service - India's Leading Car Rentals
+01-17-2022 22:16:32 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 25534
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642437958.802][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:15:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating With valid Email And Password&quot;, &quot;Optional[Log in Validation]&quot;](3)" classname="com.mindtree.runner.BDDTestRunner" time="20.323">
+    <system-out><![CDATA[Valid page
+01-17-2022 22:16:43 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:16:44 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - signin is clicked in page home page
+01-17-2022 22:16:49 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - entered Email is send in page Account Log in
+01-17-2022 22:16:50 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - entered password is send in page Account Log in
+01-17-2022 22:16:51 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - sign in button is clicked in page Account Log in
+01-17-2022 22:16:52 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - login verified
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 17579
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642437996.766][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:16:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;signout application&quot;, &quot;Optional[signout app]&quot;](4)" classname="com.mindtree.runner.BDDTestRunner" time="24.76">
+    <system-out><![CDATA[Signout
+01-17-2022 22:17:04 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - URL Opened
+01-17-2022 22:17:05 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - signin is clicked in page home page
+01-17-2022 22:17:11 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - Email entered  is send in page Account Log in
+01-17-2022 22:17:11 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - password entered is send in page Account Log in
+01-17-2022 22:17:12 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - sign in button is clicked in page Account Log in
+01-17-2022 22:17:13 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - img is clicked in page img
+01-17-2022 22:17:16 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - logout is clicked in page logout
+01-17-2022 22:17:17 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - Signed out
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 13474
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438017.275][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:16:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;selecting car in airport&quot;, &quot;Optional[airport book]&quot;](5)" classname="com.mindtree.runner.BDDTestRunner" time="28.196">
+    <system-out><![CDATA[airport page
+01-17-2022 22:17:28 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:17:29 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - airport is clicked in page airport
+01-17-2022 22:17:30 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - from place is clicked in page from
+01-17-2022 22:17:31 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place is send in page from
+01-17-2022 22:17:32 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - from is clicked in page from
+01-17-2022 22:17:33 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - dropaddress is clicked in page address
+01-17-2022 22:17:34 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - dropaddress is send in page address
+01-17-2022 22:17:37 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - dropaddress is clicked in page address
+01-17-2022 22:17:40 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - selected is clicked in page select
+01-17-2022 22:17:43 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - select car is clicked in page select
+01-17-2022 22:17:44 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - booking detail displayed 
+01-17-2022 22:17:45 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 33977
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438041.986][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:17:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;verify download app&quot;, &quot;Optional[download app]&quot;](6)" classname="com.mindtree.runner.BDDTestRunner" time="18.538">
+    <system-out><![CDATA[downloadapp page
+01-17-2022 22:17:56 ExtentLogUtilities.java INFO  [main] stepDefinitions.downloadappStepDef 14 - URL Opened
+01-17-2022 22:17:57 ExtentLogUtilities.java INFO  [main] stepDefinitions.downloadappStepDef 14 - playstore is clicked in page playstore
+01-17-2022 22:18:02 ExtentLogUtilities.java INFO  [main] stepDefinitions.downloadappStepDef 14 - went to download
+01-17-2022 22:18:03 ExtentLogUtilities.java INFO  [main] stepDefinitions.downloadappStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 2619
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438070.122][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:17:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;selecting car in local&quot;, &quot;Optional[local book]&quot;](7)" classname="com.mindtree.runner.BDDTestRunner" time="23.254">
+    <system-out><![CDATA[Valid page
+01-17-2022 22:18:15 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:18:16 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - local is clicked in page local
+01-17-2022 22:18:17 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - from place is clicked in page from
+01-17-2022 22:18:18 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place selected is send in page from
+01-17-2022 22:18:21 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - got selected is clicked in page select
+01-17-2022 22:18:24 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - time is clicked in page time
+01-17-2022 22:18:25 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - select car is clicked in page select
+01-17-2022 22:18:25 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - booking detail displayed 
+01-17-2022 22:18:26 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 48181
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438088.855][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:18:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;selecting car in outstation&quot;, &quot;Optional[Outstation book]&quot;](8)" classname="com.mindtree.runner.BDDTestRunner" time="30.744">
+    <system-out><![CDATA[out station
+01-17-2022 22:18:40 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - URL Opened
+01-17-2022 22:18:41 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - from place is clicked in page from
+01-17-2022 22:18:42 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - place selected is send in page from
+01-17-2022 22:18:43 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - place is clicked in page to
+01-17-2022 22:18:44 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - place selected. is send in page to
+01-17-2022 22:18:45 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - place is clicked in page to
+01-17-2022 22:18:50 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - selected is clicked in page select
+01-17-2022 22:18:53 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - verified uccessfully
+01-17-2022 22:18:56 ExtentLogUtilities.java INFO  [main] stepDefinitions.outstationStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 38066
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438111.811][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:18:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;selecting car in roundtrip&quot;, &quot;Optional[roundtrip book]&quot;](9)" classname="com.mindtree.runner.BDDTestRunner" time="30.945">
+    <system-out><![CDATA[Valid page
+01-17-2022 22:19:10 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:19:13 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - round is clicked in page round
+01-17-2022 22:19:14 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - from place is clicked in page from
+01-17-2022 22:19:15 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place selected is send in page from
+01-17-2022 22:19:16 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place is clicked in page to
+01-17-2022 22:19:17 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place selected. is send in page to
+01-17-2022 22:19:18 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - place is clicked in page to
+01-17-2022 22:19:23 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - selected is clicked in page select
+01-17-2022 22:19:26 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - select car is clicked in page select
+01-17-2022 22:19:27 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - booking detail is displayed
+01-17-2022 22:19:28 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - home page is clicked in page home page
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 39993
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438143.562][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:19:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;validate the page title&quot;, &quot;Optional[Validate Page]&quot;](10)" classname="com.mindtree.runner.BDDTestRunner" time="13.481">
+    <system-out><![CDATA[Valid page
+01-17-2022 22:19:41 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - URL Opened
+01-17-2022 22:19:42 ExtentLogUtilities.java INFO  [main] stepDefinitions.validpageStepDef 14 - Page opend with title Book Outstation Cabs, Local & Airport Taxi Service - India's Leading Car Rentals
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 47973
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1642438174.614][WARNING]: This version of ChromeDriver has not been tested with Chrome version 97.
+Jan 17, 2022 10:19:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
